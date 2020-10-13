@@ -14,7 +14,6 @@ public class Main {
             sum = sum + arr[i];
         }
         System.out.println();
-
         System.out.println("Сумма всех элементов в массиве = " + sum);
     }
 }
