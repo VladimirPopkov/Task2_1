@@ -4,8 +4,10 @@ import java.util.Random;
 
 public class Main {
 
+    private final static int ARRAY_SIZE = 10;
+
     public static void main(String[] args) {
-        int arr[] = new int[10];
+        int arr[] = new int[ARRAY_SIZE];
         Random random = new Random();
         int sum = 0;
         int min = 0;
